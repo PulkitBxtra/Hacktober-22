@@ -49,6 +49,9 @@ function paperClick(){
         document.getElementById('count').innerText=counter;
         greet.innerText=`AI chose ${versus}. You Lost`;
     }
+    
+    
+    
 
     else if(versus=='rock'){
         console.log('won');
